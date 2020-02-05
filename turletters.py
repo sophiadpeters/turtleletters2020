@@ -88,7 +88,24 @@ def turtleLetter(letter,tur):
     elif letter == "S":
 	    pass
     elif letter == "T":
-	    pass
+	tur.penup()
+	tur.forward(13)
+	tur.right(90)
+	tur.forward(15)
+	tur.left(90)
+	tur.pendown()
+	tur.forward(14)
+	tur.right(180)
+	tur.forward(7)
+	tur.left(90)
+	tur.forward(30)
+	#letter completed and returned to placement
+	tur.penup()
+	tur.left(90)
+	tur.forward(20)
+	tur.left(90)
+	tur.forward(45)
+	tur.right(90)
     elif letter == "U":
 	    pass
     elif letter == "V":
